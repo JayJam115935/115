@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EasterEgg.com - COD Zombies Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>EasterEgg.com</h1>
+    <p>Your Ultimate Call of Duty Zombies Easter Egg Hub</p>
+  </header>
+
+  <main>
+    <section id="search">
+      <input type="text" id="mapSearch" placeholder="Search for a map..." />
+    </section>
+
+    <section id="map-list">
+      <h2>Call of Duty Zombies Maps</h2>
+
+      <h3>World at War</h3>
+      <ul>
+        <li>Nacht der Untoten</li>
+        <li>Verrückt</li>
+        <li>Shi No Numa</li>
+        <li>Der Riese</li>
+      </ul>
+
+      <h3>Black Ops (BO1)</h3>
+      <ul>
+        <li>Kino der Toten</li>
+        <li>Five</li>
+        <li>Dead Ops Arcade</li>
+        <li>Ascension</li>
+        <li>Call of the Dead</li>
+        <li>Shangri-La</li>
+        <li>Moon</li>
+      </ul>
+
+      <h3>Black Ops II (BO2)</h3>
+      <ul>
+        <li>TranZit (Bus Ride, Farm, Town, Diner)</li>
+        <li>Nuketown Zombies</li>
+        <li>Die Rise</li>
+        <li>Mob of the Dead</li>
+        <li>Buried</li>
+        <li>Origins</li>
+        <li>Dead Ops Arcade 2</li>
+      </ul>
+
+      <h3>Black Ops III (BO3)</h3>
+      <ul>
+        <li>Shadows of Evil</li>
+        <li>The Giant</li>
+        <li>Der Eisendrache</li>
+        <li>Zetsubou No Shima</li>
+        <li>Gorod Krovi</li>
+        <li>Revelations</li>
+        <li>Dead Ops Arcade 3</li>
+      </ul>
+
+      <h3>Zombies Chronicles (BO3)</h3>
+      <ul>
+        <li>Nacht der Untoten (remastered)</li>
+        <li>Verrückt (remastered)</li>
+        <li>Shi No Numa (remastered)</li>
+        <li>Kino der Toten (remastered)</li>
+        <li>Ascension (remastered)</li>
+        <li>Shangri-La (remastered)</li>
+        <li>Moon (remastered)</li>
+        <li>Origins (remastered)</li>
+      </ul>
+
+      <h3>Black Ops 4 (BO4)</h3>
+      <ul>
+        <li>IX</li>
+        <li>Voyage of Despair</li>
+        <li>Blood of the Dead</li>
+        <li>Classified</li>
+        <li>Dead of the Night</li>
+        <li>Alpha Omega</li>
+        <li>Ancient Evil</li>
+        <li>Tag der Toten</li>
+      </ul>
+
+      <h3>Black Ops Cold War (BOCW)</h3>
+      <ul>
+        <li>Die Maschine</li>
+        <li>Firebase Z</li>
+        <li>Mauer der Toten</li>
+        <li>Forsaken</li>
+        <li>Prisoner</li>
+        <li>Dead Ops Arcade</li>
+      </ul>
+
+      <h3>Vanguard</h3>
+      <ul>
+        <li>Der Anfang</li>
+        <li>Shadowed Throne</li>
+        <li>The Archon</li>
+      </ul>
+
+      <h3>Black Ops 6 (BO6)</h3>
+      <ul>
+        <li>Liberty Falls</li>
+        <li>Citadel de Moris</li>
+        <li>The Tomb</li>
+        <li>Shattered Veil</li>
+        <li>Terminus</li>
+      </ul>
+
+      <h3>Call of Duty: WWII</h3>
+      <ul>
+        <li>The Final Reich</li>
+        <li>The Darkest Shore</li>
+        <li>The Shadowed Throne</li>
+        <li>The Tortured Path</li>
+      </ul>
+
+      <h3>Call of Duty: Ghosts (Extinction Mode)</h3>
+      <ul>
+        <li>Nightfall</li>
+        <li>Mayday</li>
+        <li>Hive</li>
+        <li>Ruins</li>
+        <li>Fog</li>
+      </ul>
+
+      <h3>Other / Spin-offs</h3>
+      <ul>
+        <li>Exo Zombies (Advanced Warfare)</li>
+        <li>Infinite Warfare Zombies (Zombies in Spaceland, Rave in the Redwoods, Shaolin Shuffle, Attack of the Radioactive Thing)</li>
+        <li>Dead Ops Arcade series</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by Jayden - 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
