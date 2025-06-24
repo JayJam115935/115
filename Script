@@ -1,0 +1,26 @@
+// Map Search Functionality
+document.addEventListener("DOMContentLoaded", () => {
+  const searchInput = document.getElementById("mapSearch");
+  const mapLists = document.querySelectorAll("#map-list ul");
+
+  searchInput.addEventListener("input", () => {
+    const filter = searchInput.value.toLowerCase();
+
+    mapLists.forEach((ul) => {
+      let hasVisibleItem = false;
+
+      ul.querySelectorAll("li").forEach((li) => {
+        const text = li.textContent.toLowerCase();
+        const match = text.includes(filter);
+        li.style.display = match ? "" : "none";
+        if (match) hasVisibleItem = true;
+      });
+
+      // Show or hide entire game section
+      const heading = ul.previousElementSibling;
+      if (heading && heading.tagName === "H3") {
+        heading.style.display = hasVisibleItem ? "" : "none";
+      }
+    });
+  });
+});
