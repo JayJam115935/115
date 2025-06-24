@@ -1,0 +1,83 @@
+/* General Page Styling */
+body {
+  background-color: #121212;
+  color: #f0f0f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #1e1e1e;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ff0000;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #ff0000;
+}
+
+header p {
+  font-size: 1.1em;
+  color: #cccccc;
+}
+
+/* Search Bar */
+#search {
+  padding: 20px;
+  text-align: center;
+  background-color: #181818;
+  border-bottom: 1px solid #333;
+}
+
+#mapSearch {
+  width: 80%;
+  max-width: 500px;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: none;
+  background-color: #222;
+  color: #fff;
+}
+
+/* Map List */
+#map-list {
+  padding: 30px;
+  line-height: 1.8em;
+}
+
+h2 {
+  color: #ff3333;
+  text-align: center;
+}
+
+h3 {
+  color: #ff4444;
+  margin-top: 30px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 25px;
+}
+
+ul li {
+  color: #dddddd;
+  padding: 2px 0;
+}
+
+/* Footer */
+footer {
+  background-color: #1e1e1e;
+  color: #aaa;
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid #333;
+}
